@@ -27,52 +27,39 @@ To increase the diversity of the training data, several data augmentation techni
 # Training and Evaluation
 Each model is trained and evaluated using various metrics, including training and validation losses and accuracies. Detailed metrics for each fold during K-Fold Cross-Validation are provided for the BERT model.
 
-# Usage
-To run the models, follow the steps below:
-
-# Clone this repository:
-
-git clone https://github.com/yourusername/tamil-gec.git
-cd tamil-gec
-
-# Prepare the dataset:
-
-Place the dataset file (Error Annotated Corpus.csv) from Kaggle in the project directory.
-
-# Running the code:
+# Running the code
 
 Download the zip file and extract the .ipynb file
 
-Upload the file in Google Colab or Jupyter notebook and run each cell in order
+Upload the dataset file (Error Annotated Corpus.csv) from Kaggle, in the project directory
+
+Upload the .ipynb file in Google Colab or Jupyter notebook and run each cell in order
 
 # Results
 
-BERT
+1. BERT
 
-Mean Accuracy: 96.17%
+- Mean Accuracy: 96.17%
 
-Mean Loss: 0.182
+- Mean Loss: 0.182
 
-TransformerXL
+2. TransformerXL
 
-Evaluation Accuracy: 94.34%
+- Evaluation Accuracy: 94.34%
 
-Evaluation Loss: 0.1485
+- Evaluation Loss: 0.1485
 
-mBART
+3. mBART
 
-Accuracy: 66.67%
+- Accuracy: 66.67%
 
-LSTM
+4. LSTM
 
-Validation Accuracy: 56.37%
+- Validation Accuracy: 56.37%
 
-Validation Loss: 2.6524
+- Validation Loss: 2.6524
 
 # Future Work
 Future research can explore additional transformer models like GPT-3, T5, or RoBERTa, experiment with ensemble methods, and systematically explore different hyperparameters to further optimize model performance. Utilizing more extensive and diverse datasets can enhance model robustness and generalization.
-
-# Contributing
-Contributions to this project are welcome. Feel free to open issues or submit pull requests with improvements.
 
 
