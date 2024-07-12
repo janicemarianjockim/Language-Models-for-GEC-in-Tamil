@@ -34,25 +34,41 @@ To run the models, follow the steps below:
 
 git clone https://github.com/yourusername/tamil-gec.git
 cd tamil-gec
-# Install the required packages:
 
-pip install -r requirements.txt
 # Prepare the dataset:
 
-Place the dataset file (Error Annotated Corpus.csv) in the project directory.
-Run the training scripts for each model
-Results
+Place the dataset file (Error Annotated Corpus.csv) from Kaggle in the project directory.
+
+# Running the code:
+
+Download the zip file and extract the .ipynb file
+
+Upload the file in Google Colab or Jupyter notebook and run each cell in order
+
+# Results
+
 BERT
+
 Mean Accuracy: 96.17%
+
 Mean Loss: 0.182
+
 TransformerXL
+
 Evaluation Accuracy: 94.34%
+
 Evaluation Loss: 0.1485
+
 mBART
+
 Accuracy: 66.67%
+
 LSTM
+
 Validation Accuracy: 56.37%
+
 Validation Loss: 2.6524
+
 # Future Work
 Future research can explore additional transformer models like GPT-3, T5, or RoBERTa, experiment with ensemble methods, and systematically explore different hyperparameters to further optimize model performance. Utilizing more extensive and diverse datasets can enhance model robustness and generalization.
 
