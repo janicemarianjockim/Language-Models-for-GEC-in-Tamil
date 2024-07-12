@@ -29,11 +29,11 @@ Each model is trained and evaluated using various metrics, including training an
 
 # Running the code
 
-Download the zip file and extract the .ipynb file
+Download the zip file and extract the code (.ipynb) file and the dataset (.csv) file
 
-Upload the dataset file (Error Annotated Corpus.csv) from Kaggle, in the project directory
+Upload the dataset file (Error Annotated Corpus.csv), in the project directory or wherever you want to run the code
 
-Upload the .ipynb file in Google Colab or Jupyter notebook and run each cell in order
+Upload the code (Language_Models_for_GEC_in_Tamil_Language.ipynb) file in Google Colab or Jupyter notebook and run each cell in order
 
 # Results
 
