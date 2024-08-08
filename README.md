@@ -17,7 +17,7 @@ The dataset used for this project is sourced from Kaggle and consists of Tamil s
 
 # Models
 # BERT
-The BERT model is used in an encoder-decoder setup for sequence-to-sequence tasks. The code includes data preprocessing, model initialization, and training using K-Fold Cross-Validation.
+The BERT model used is bert-base-multilingual-cased for sequence-to-sequence tasks. The code includes data preprocessing, model initialization, and training using K-Fold Cross-Validation.
 # T5
 T5 is fine-tuned for GEC tasks using a subset of the dataset. The model is trained using sequence-to-sequence tasks with token-level accuracy as the evaluation metric.
 # mBART
