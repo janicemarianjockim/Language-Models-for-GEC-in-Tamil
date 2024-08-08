@@ -5,9 +5,13 @@ This repository contains code for training and evaluating various transformer-ba
 Grammatical Error Correction (GEC) aims to automatically detect and correct grammatical errors in text. This repository demonstrates the application of several advanced NLP models to perform GEC in Tamil, an under-resourced language in the field of NLP. The models used in this project are:
 
 BERT (Bidirectional Encoder Representations from Transformers)
+
 T5 (Text-to-Text Transfer Transformer)
+
 mBART (Multilingual BART)
+
 LSTM (Long Short-Term Memory)
+
 # Dataset
 The dataset used for this project is sourced from Kaggle and consists of Tamil sentences with errors and their corresponding corrections. The dataset is preprocessed to remove null values, tokenized, lemmatized, and encoded for model training.
 
