@@ -1,5 +1,5 @@
 # Grammatical Error Correction in Tamil Language Using Language Models
-This repository contains code for training and evaluating various transformer-based and recurrent models for Grammatical Error Correction (GEC) in the Tamil language. The models included are BERT, T5, mBART, and LSTM.
+This repository contains code for training and evaluating various transformer-based and recurrent models for Grammatical Error Correction (GEC) in the Tamil language. The models included are BERT, T5, mBART, and BiLSTM.
 
 # Overview
 Grammatical Error Correction (GEC) aims to automatically detect and correct grammatical errors in text. This repository demonstrates the application of several advanced NLP models to perform GEC in Tamil, an under-resourced language in the field of NLP. The models used in this project are:
@@ -10,7 +10,7 @@ T5 (Text-to-Text Transfer Transformer)
 
 mBART (Multilingual BART)
 
-LSTM (Long Short-Term Memory)
+BiLSTM (Bidirectional Long Short-Term Memory)
 
 # Dataset
 The dataset used for this project is sourced from Kaggle and consists of Tamil sentences with errors and their corresponding corrections. The dataset is preprocessed to remove null values, tokenized, lemmatized, and encoded for model training.
@@ -22,8 +22,8 @@ The BERT model is used in an encoder-decoder setup for sequence-to-sequence task
 T5 is fine-tuned for GEC tasks using a subset of the dataset. The model is trained using sequence-to-sequence tasks with token-level accuracy as the evaluation metric.
 # mBART
 mBART is employed for grammatical error correction by generating corrected sentences. The model's accuracy is evaluated on a sample dataset.
-# LSTM
-The LSTM model is developed with regularization and hyperparameter tuning. It includes bidirectional LSTM layers with dropout to prevent overfitting.
+# BiLSTM
+The BiLSTM model is developed with regularization and hyperparameter tuning. It includes bidirectional LSTM layers with dropout to prevent overfitting.
 
 # Data Augmentation
 To increase the diversity of the training data, several data augmentation techniques were applied, including synonym replacement, random insertion, and word swapping.
@@ -61,7 +61,7 @@ Run each of the cells in order
 
 - Accuracy: 66.67%
 
-4. LSTM
+4. BiLSTM
 
 - Validation Accuracy: 56.37%
 
