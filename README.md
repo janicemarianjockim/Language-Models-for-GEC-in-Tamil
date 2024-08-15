@@ -8,7 +8,7 @@ BERT (Bidirectional Encoder Representations from Transformers)
 
 T5 (Text-to-Text Transfer Transformer)
 
-mBART (Multilingual BART)
+mBART (Multilingual Bidirectional Auto-Regressive Transformers)
 
 BiLSTM (Bidirectional Long Short-Term Memory)
 
@@ -59,7 +59,7 @@ Run each of the cells in order
 
 3. mBART
 
-- Accuracy: 66.67%
+- Accuracy: 62.64%
 
 4. BiLSTM
 
